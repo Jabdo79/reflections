@@ -8,3 +8,8 @@ Repository contains saved commits. Working directory contains all the current
 files in the project. The staging area allows you to select which files in the
 working dir you want to make commits from. It allows you to be more precise
 in which files to make commits from.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+You can run git --staged to compare the files in the staging area to the most 
+recent commit, making sure there is only one logical change before committing.
