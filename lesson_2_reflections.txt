@@ -29,3 +29,10 @@ It combines the additions or subtractions from both branches in relation to
 the parent commit for both branches. Merging branches uses the checked out
 branch as the head of the merge, so drawing a converging point from all
 merged branches makes sense.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+Automatic merging saves a little time when git is 100% sure the merge wont
+break anything. Referring to the user under any doubt allows the user to
+easily look directly at any conflicts and address them on the spot, vs sifting
+through the code and trying to find the differences after git merges it anyway.
