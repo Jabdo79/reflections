@@ -18,3 +18,9 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 You would be able to run git diff on the current remote head and your local
 head. Allowing you to identify the changes made.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+You could send copies of the file back and forth through email for example.
+Comparing the exact changes made and keeping track of all the different
+versions would be harder, but sending and receiving copies would be easier.
