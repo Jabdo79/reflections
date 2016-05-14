@@ -13,3 +13,8 @@ use one instead of another?
 Forks are clones of repositories on github. Clones are copies of full
 repositories with at least one copy locally. Branches are two or more different
 sets of commits originating from a parent commit.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+You would be able to run git diff on the current remote head and your local
+head. Allowing you to identify the changes made.
