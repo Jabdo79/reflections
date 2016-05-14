@@ -22,3 +22,10 @@ of the current commit, without losing the current commit.
 How do the diagrams help you visualize the branch structure?
 You can see the full connections of each branch and identify where they
 diverge/merge all in one glance.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+It combines the additions or subtractions from both branches in relation to
+the parent commit for both branches. Merging branches uses the checked out
+branch as the head of the merge, so drawing a converging point from all
+merged branches makes sense.
